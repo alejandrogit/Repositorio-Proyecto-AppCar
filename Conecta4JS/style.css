@@ -1,5 +1,5 @@
 body{
-	background-color: #45F692;
+	background-color: #000;
 
 }
 
@@ -47,10 +47,10 @@ td {
 #tablero {
 	width: 45%;
 	/*max-width: 600px;*/
-	background-color: #FFF970;
+	background-color: #F00;
 	margin: 0 auto;
 	padding: 5% 0;
-	box-shadow: 2px 3px 2px #666;
+	box-shadow: 2px 3px 2px #FF0;
 	border-radius: 50px;
 	margin-bottom: 0.5%;
 }
@@ -60,12 +60,12 @@ td {
 }
 
 #btn_comenzar, #btn_reset {
-    border: 1px solid #006;
+    border: 1px solid #00F;
     background: #ffc;
 }
 
 #btn_comenzar:hover, #btn_reset:hover {
-    border: 1px solid #f00;
+    border: 1px solid #00F;
     background: #ff6;
 }
 
@@ -76,11 +76,11 @@ td {
 
 #tocaTurno{
 	margin-left:44%;
-	margin-right:44%;
+	margin-right:70%;
 	display: inline;
 	border-radius: 10px;
 	padding: 5px;
-	background-color: #FFF970;
+	background-color: #F00;
 	box-shadow: 1px 1px 1px #333;
 	font-family: Verdana;
 }
